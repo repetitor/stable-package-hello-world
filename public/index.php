@@ -4,4 +4,8 @@ require '../vendor/autoload.php';
 
 use HelloWorld\Hello;
 
-echo Hello::world() . PHP_EOL;
+try {
+    echo Hello::world() . PHP_EOL;
+} catch (Exception $e){
+    return $e;
+}
