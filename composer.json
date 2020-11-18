@@ -1,6 +1,7 @@
 {
     "name": "repetitor202/stable-package-hello-world",
     "description": "TEST package - hello world)",
+    "version": "1.0.0",
     "minimum-stability": "dev",
     "authors": [
         {
