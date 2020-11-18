@@ -1,14 +1,23 @@
 {
     "name": "repetitor202/stable-package-hello-world",
-    "description": "stable package - hello world)",
-    "version": "1.0.0",
+    "description": "TEST package - hello world)",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Viktar Akulenka",
             "email": "repetitor202@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.1",
+        "mycompany/superlogger":"dev-master"
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/pqr/superlogger"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "HelloWorld\\": "src/"
