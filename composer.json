@@ -1,7 +1,7 @@
 {
-    "name": "repetitor202/stable-package-hello-world",
-    "description": "stable package - hello world)",
-    "version": "1.0.0",
+    "name": "repetitor202/stable-package-hello-world-v2",
+    "description": "stable package - hello world - v2)",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "Viktar Akulenka",
